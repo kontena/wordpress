@@ -1,0 +1,13 @@
+wordpress:
+  image: wordpress:4.1
+  stateful: true
+  ports:
+    - 80:80
+  links:
+    - mysql:wordpress-mysql
+  env_file: wordpress.env
+mysql:
+  image: mariadb:5.5
+  stateful: true
+  environment:
+    - MYSQL_ROOT_PASSWORD=secret
