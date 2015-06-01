@@ -1,6 +1,6 @@
 # Wordpress with Kontena Deploy
 
-Building Wordpress environment with [Kontena](http://www.kontena.io).
+Building traditional Wordpress environment with [Kontena](http://www.kontena.io).
 
 [![asciicast](https://asciinema.org/a/20600.png)](https://asciinema.org/a/20600)
 
@@ -8,6 +8,8 @@ Building Wordpress environment with [Kontena](http://www.kontena.io).
 1. [Setup](https://github.com/kontena/kontena/tree/master/docs) Kontena environment
 2. Clone this repo
 3. Run `kontena deploy`
+
+See also [Wordpress Cluster](https://github.com/kontena/wordpress-cluster) demo.
 
 ## License
 Kontena software is open source, and you can use it for any purpose, personal or commercial. Kontena is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for full
