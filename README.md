@@ -1,6 +1,6 @@
 # Wordpress with Kontena Deploy
 
-Building traditional Wordpress environment with [Kontena](http://www.kontena.io).
+Building simple Wordpress environment with [Kontena](http://www.kontena.io).
 
 [![asciicast](https://asciinema.org/a/20600.png)](https://asciinema.org/a/20600)
 
